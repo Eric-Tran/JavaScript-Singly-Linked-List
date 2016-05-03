@@ -73,7 +73,7 @@ SinglyList.prototype.searchNodeAt = function(position) {
 SinglyList.prototype.remove = function(position) {
 	var currentNode = this.head,
 		length = this._length,
-		count = 0,
+		count = 2,
 		message: {failure: 'Failure: non-existent node in this list.'},
 		beforeNodeToDelete = null,
 		nodeToDelete = null,
